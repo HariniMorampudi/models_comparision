@@ -4,9 +4,6 @@ import pandas as pd#pandas to do operations on data frame
 import time#used for making live url
 import os #files are automatically created using os - builtin
 
-from dotenv import load_dotenv #load_dotenv function from dotenv package
-load_dotenv() #loads environment variables from .env file into the application
-
 try: #using import statements inside try except to catch errors
     from auth import login
     from utils.router import choose_models
